@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Te Amo Turromzita</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="envelope" onclick="openLetter()">
+            <div class="envelope-front">
+                <div class="heart">💌</div>
+                <p class="text">Abre la carta</p>
+            </div>
+            <div class="envelope-flap"></div>
+        </div>
+
+        <div class="letter-container" id="letterContainer">
+            <div class="letter" id="letter">
+                <div class="letter-content">
+                    <p class="greeting">Mi amor,</p>
+                    <p class="message">Te amo turromzita ❤️</p>
+                    <p class="signature">Con todo mi corazón</p>
+                </div>
+            </div>
+        </div>
+
+        <button class="reset-btn" onclick="resetLetter()" id="resetBtn" style="display: none;">Cerrar Carta</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
